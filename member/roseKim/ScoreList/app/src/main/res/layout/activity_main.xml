@@ -10,8 +10,8 @@
         android:id="@+id/btn_add_member"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Add Member Dialog show"
-        android:onClick="mOnClick"/>
+        android:onClick="mOnClick"
+        android:text="점수입력" />
 
     <ListView
         android:id="@+id/listView"
