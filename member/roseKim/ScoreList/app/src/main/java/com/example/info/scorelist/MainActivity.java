@@ -49,7 +49,7 @@ public class MainActivity extends Activity {
                 AlertDialog.Builder buider= new AlertDialog.Builder(this);
 
                 buider.setTitle("볼링 점수 입력");
-                buider.setIcon(android.R.drawable.ic_menu_add);
+                //buider.setIcon(android.R.drawable.ic_menu_add);
                 buider.setView(dialogView);
                 buider.setPositiveButton("입력", new DialogInterface.OnClickListener() {
 
