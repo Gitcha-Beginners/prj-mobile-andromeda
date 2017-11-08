@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:text="점수\n입력"
+            android:textSize="12sp"
+            android:gravity="center"/>
+
+
+        <EditText
+            android:id="@+id/dialog_edit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3.5"
+            android:textSize="12sp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:text="NATION"
+            android:textSize="12sp"
+            android:gravity="center"/>
+
+        <RadioGroup
+            android:id="@+id/dialog_rg"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3.5"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/dialog_rb_korea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KOREA"
+                android:textSize="12sp"/>
+
+            <RadioButton
+                android:id="@+id/dialog_rb_canada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CANADA"
+                android:textSize="12sp"/>
+
+            <RadioButton
+                android:id="@+id/dialog_rb_france"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FRANCE"
+                android:textSize="12sp"/>
+
+            <RadioButton
+                android:id="@+id/dialog_rb_mexico"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MEXICO"
+                android:textSize="12sp"/>
+
+            <RadioButton
+                android:id="@+id/dialog_rb_poland"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="POLAND"
+                android:textSize="12sp"/>
+
+        </RadioGroup>
+
+    </LinearLayout>-->
+
+</LinearLayout>
